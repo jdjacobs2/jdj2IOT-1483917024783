@@ -1,0 +1,14 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: jdj2IOT
+  host: jdj2IOT
+  disk_quota: 1024M
+  services:
+  - jdj2IOT-cloudantNoSQLDB
+  - jdj2IOT-iotf-service
+  env:
+    NODE_RED_USERNAME: jdj2ibm
+    NODE_RED_PASSWORD: IBMibm8_
